@@ -1,0 +1,19 @@
+{
+  "watch": [
+    "index.js",
+    "controller",
+    "router"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules/**/*",
+    ".git/**/*"
+  ],
+  "exec": "node index.js",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "delay": "1000",
+  "verbose": true
+}
+
